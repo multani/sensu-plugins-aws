@@ -5,6 +5,12 @@ This CHANGELOG follows the format listed [here](https://github.com/sensu-plugins
 
 ## [Unreleased]
 
+### Security
+- updated rubocop dependency to `~> 0.51.0` per: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-8418. (@majormoses)
+
+### Changed
+- appease the new cops where it required light refactoring, called out TODO's for later refactoring (@majormoses)
+
 ## [10.0.1] - 2017-11-18
 ### Added
 - check-rds.rb: Add R4 instances (@enokawa)
